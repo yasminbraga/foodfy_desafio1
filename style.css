@@ -11,6 +11,26 @@ body {
     max-width: 940px;
 }
 header {
+    display: flex;
+    padding: 30px;
+}
+.links {
+    display: flex;
+}
+.links h3 {
+    font-size: 28px;
+    font-family: 'Baskervville', sans-serif;
+}
+.links a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #111111;
+}
+
+
+
+/* header {
     margin: 0 auto;
     max-width: 940px;
 }
@@ -33,4 +53,4 @@ header {
     color: #111111;
     text-decoration: none;
     float: right;
-}
+} */
