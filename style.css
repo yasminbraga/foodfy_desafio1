@@ -7,28 +7,24 @@
     border: 0;
     font-family: 'Roboto', sans-serif;
 }
-body {
-    margin: 0 auto;
+
+.page-content {
     max-width: 940px;
+    margin: 0 auto;
 }
 header.navigation {
     display: flex;
-    align-content: center;
     padding: 30px;
 }
-.title {
+.logo {
     margin-right: 122.4px;
+    display: flex;
+    align-items: center;
 }
 .links {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.title h3 {
-    font-size: 28px;
-    font-family: 'Baskervville', sans-serif;
-}
 .links a {
     text-decoration: none;
     font-size: 16px;
@@ -59,4 +55,65 @@ header.navigation {
     font-size: 18px;
     color: #000000;
     opacity: 0.7;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 20px;
+}
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 50px 0 20px;
+}
+.card {
+    max-width: 300px;
+}
+.card-image-container img {
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.content-title {
+    font-size: 18px;
+    padding: 20px 0 5px;
+}
+.content-author {
+    color:  #777777;
+    font-size: 14px;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #EEEEEE;
+    margin-top: 50px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-size: 14px;
+    color: #999999;
+}
+
+/* ABOUT */
+.about-title {
+    font-size: 24px;
+    color: #111111;
+    font-weight: bold;
+    padding: 20px 0 30px;
+}
+.text-content {
+    font-size: 18px;
+    color: #444444;
+    line-height: 28px;
+}
+.complement {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 0 20px;
 }
