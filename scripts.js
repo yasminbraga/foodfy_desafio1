@@ -6,6 +6,7 @@ for (let card of cards) {
         const imgId = card.getAttribute('id')
         const cardTitle = card.querySelector('.content-title').innerHTML
         const cardAuthor = card.querySelector('.content-author').innerHTML
+        
         modalOverlay.classList.add('active')
         modalOverlay.querySelector('img').src = `/assets/${imgId}`
         modalOverlay.querySelector('.modal-title').innerHTML = cardTitle
